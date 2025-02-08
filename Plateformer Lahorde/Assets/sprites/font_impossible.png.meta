@@ -1,0 +1,2867 @@
+fileFormatVersion: 2
+guid: 6fab1954b2504ba4b856eadd01c523dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8077563681121741546
+    second: font_impossible_0
+  - first:
+      213: -5703312168645835758
+    second: font_impossible_1
+  - first:
+      213: -1946798041027439220
+    second: font_impossible_2
+  - first:
+      213: -6818846699411923556
+    second: font_impossible_3
+  - first:
+      213: 6968788537259889799
+    second: font_impossible_4
+  - first:
+      213: 6498638691509994314
+    second: font_impossible_5
+  - first:
+      213: -8967075542414412557
+    second: font_impossible_6
+  - first:
+      213: 4026303278800156052
+    second: font_impossible_7
+  - first:
+      213: -7106283156222836462
+    second: font_impossible_8
+  - first:
+      213: -434333837370555470
+    second: font_impossible_9
+  - first:
+      213: 6780341688654625121
+    second: font_impossible_10
+  - first:
+      213: 2582013689457958894
+    second: font_impossible_11
+  - first:
+      213: -8966554132023807492
+    second: font_impossible_12
+  - first:
+      213: 2409435803467404665
+    second: font_impossible_13
+  - first:
+      213: -6590399937019053504
+    second: font_impossible_14
+  - first:
+      213: -2783790517416433610
+    second: font_impossible_15
+  - first:
+      213: 5995038729553141471
+    second: font_impossible_16
+  - first:
+      213: 3723207785745339676
+    second: font_impossible_17
+  - first:
+      213: 3092219229218148948
+    second: font_impossible_18
+  - first:
+      213: -7504580721430730106
+    second: font_impossible_19
+  - first:
+      213: 814463795024388328
+    second: font_impossible_20
+  - first:
+      213: -5877465167447569928
+    second: font_impossible_21
+  - first:
+      213: -1329468335979591442
+    second: font_impossible_22
+  - first:
+      213: 7464668304872342586
+    second: font_impossible_23
+  - first:
+      213: -326300048692926944
+    second: font_impossible_24
+  - first:
+      213: 8272878752644053845
+    second: font_impossible_25
+  - first:
+      213: -6987892992383900468
+    second: font_impossible_26
+  - first:
+      213: 4330245877749430963
+    second: font_impossible_27
+  - first:
+      213: 2010873024961023605
+    second: font_impossible_28
+  - first:
+      213: 5153378038590588949
+    second: font_impossible_29
+  - first:
+      213: -4356187069695943951
+    second: font_impossible_30
+  - first:
+      213: -7446340134936564912
+    second: font_impossible_31
+  - first:
+      213: 5599645828815765087
+    second: font_impossible_32
+  - first:
+      213: -3067947510167433427
+    second: font_impossible_33
+  - first:
+      213: -1153299943176775832
+    second: font_impossible_34
+  - first:
+      213: 6834711669686964862
+    second: font_impossible_35
+  - first:
+      213: 6321793089148312922
+    second: font_impossible_36
+  - first:
+      213: 9064561483570930518
+    second: font_impossible_37
+  - first:
+      213: 858809216020622588
+    second: font_impossible_38
+  - first:
+      213: 3583251967073964524
+    second: font_impossible_39
+  - first:
+      213: 3658695942181111224
+    second: font_impossible_40
+  - first:
+      213: -6748205297435292302
+    second: font_impossible_41
+  - first:
+      213: -9075870594975026974
+    second: font_impossible_42
+  - first:
+      213: 8561388287024731855
+    second: font_impossible_43
+  - first:
+      213: 8105620120971292038
+    second: font_impossible_44
+  - first:
+      213: 637412972567578931
+    second: font_impossible_45
+  - first:
+      213: -8297037976783885261
+    second: font_impossible_46
+  - first:
+      213: 5823518357127646960
+    second: font_impossible_47
+  - first:
+      213: 2647484749222137637
+    second: font_impossible_48
+  - first:
+      213: 6382599375664506043
+    second: font_impossible_49
+  - first:
+      213: -3767989797087053616
+    second: font_impossible_50
+  - first:
+      213: -3671325883853790561
+    second: font_impossible_51
+  - first:
+      213: 8202854497714438828
+    second: font_impossible_52
+  - first:
+      213: -5438061216432991528
+    second: font_impossible_53
+  - first:
+      213: 4962494663994918443
+    second: font_impossible_54
+  - first:
+      213: 8204171128051320146
+    second: font_impossible_55
+  - first:
+      213: -4242951439249105023
+    second: font_impossible_56
+  - first:
+      213: -3940000089355382848
+    second: font_impossible_57
+  - first:
+      213: 904504731871711638
+    second: font_impossible_58
+  - first:
+      213: -6273418619005386041
+    second: font_impossible_59
+  - first:
+      213: 3530062608646758684
+    second: font_impossible_60
+  - first:
+      213: 5907635736259289021
+    second: font_impossible_61
+  - first:
+      213: 8588784385492979227
+    second: font_impossible_62
+  - first:
+      213: 4333821917193000859
+    second: font_impossible_63
+  - first:
+      213: 180556847458127648
+    second: font_impossible_64
+  - first:
+      213: -7306898274141117508
+    second: font_impossible_65
+  - first:
+      213: -4357266967209755908
+    second: font_impossible_66
+  - first:
+      213: 2767323250243182445
+    second: font_impossible_67
+  - first:
+      213: -3112914139254287011
+    second: font_impossible_68
+  - first:
+      213: -8763920204227106531
+    second: font_impossible_69
+  - first:
+      213: -6954817085815770269
+    second: font_impossible_70
+  - first:
+      213: -830934500933679249
+    second: font_impossible_71
+  - first:
+      213: -8629748880487844163
+    second: font_impossible_72
+  - first:
+      213: -6067388356494453096
+    second: font_impossible_73
+  - first:
+      213: -310101142539800646
+    second: font_impossible_74
+  - first:
+      213: -5685698411631535542
+    second: font_impossible_75
+  - first:
+      213: -8104829824052830126
+    second: font_impossible_76
+  - first:
+      213: -1468485980963714330
+    second: font_impossible_77
+  - first:
+      213: -174677874078058920
+    second: font_impossible_78
+  - first:
+      213: -2977818700393903156
+    second: font_impossible_79
+  - first:
+      213: 9119738679456451371
+    second: font_impossible_80
+  - first:
+      213: 4396487015145288457
+    second: font_impossible_81
+  - first:
+      213: -7895532830969806795
+    second: font_impossible_82
+  - first:
+      213: -7849705017180261271
+    second: font_impossible_83
+  - first:
+      213: -3848796846203508403
+    second: font_impossible_84
+  - first:
+      213: -6141504158399848692
+    second: font_impossible_85
+  - first:
+      213: -4993748265140654333
+    second: font_impossible_86
+  - first:
+      213: -149043312101183990
+    second: font_impossible_87
+  - first:
+      213: 539005839642465797
+    second: font_impossible_88
+  - first:
+      213: -3020888418066548289
+    second: font_impossible_89
+  - first:
+      213: -5749711437062666462
+    second: font_impossible_90
+  - first:
+      213: -8763544110408292112
+    second: font_impossible_91
+  - first:
+      213: 13090415711622276
+    second: font_impossible_92
+  - first:
+      213: 4999153054186033708
+    second: font_impossible_93
+  - first:
+      213: -7374165778728928945
+    second: font_impossible_94
+  - first:
+      213: -7754717501745247209
+    second: font_impossible_95
+  - first:
+      213: 2892000235365114093
+    second: font_impossible_96
+  - first:
+      213: -2300067162960047322
+    second: font_impossible_97
+  - first:
+      213: -3093339015407971457
+    second: font_impossible_98
+  - first:
+      213: 1269755803711390827
+    second: font_impossible_99
+  - first:
+      213: -4111913289032282129
+    second: font_impossible_100
+  - first:
+      213: 3513846935132945679
+    second: font_impossible_101
+  - first:
+      213: -9055886612157159085
+    second: font_impossible_102
+  - first:
+      213: 758420412045610611
+    second: font_impossible_103
+  - first:
+      213: -7995786510870344439
+    second: font_impossible_104
+  - first:
+      213: -7984246426189500380
+    second: font_impossible_105
+  - first:
+      213: 6662629792868368933
+    second: font_impossible_106
+  - first:
+      213: -1448602147667840450
+    second: font_impossible_107
+  - first:
+      213: 7799964033872359462
+    second: font_impossible_108
+  - first:
+      213: -2413051834892691893
+    second: font_impossible_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: font_impossible_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6155428f0aab6ef80800000000000000
+      internalID: -8077563681121741546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 77
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214c3b0dcc3c9d0b0800000000000000
+      internalID: -5703312168645835758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 76
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85122b0f759bf4e0800000000000000
+      internalID: -1946798041027439220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 77
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d15bffd079e51a0800000000000000
+      internalID: -6818846699411923556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 77
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784903e904c16b060800000000000000
+      internalID: 6968788537259889799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43001b657dcf2a50800000000000000
+      internalID: 6498638691509994314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4bb44cd4c8e8380800000000000000
+      internalID: -8967075542414412557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 65
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495bfd2ff7d40e730800000000000000
+      internalID: 4026303278800156052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2110fffbe19616d90800000000000000
+      internalID: -7106283156222836462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 65
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b388951dafe8f9f0800000000000000
+      internalID: -434333837370555470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169f70097dc981e50800000000000000
+      internalID: 6780341688654625121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef565d35c725d320800000000000000
+      internalID: 2582013689457958894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1f8651686609380800000000000000
+      internalID: -8966554132023807492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97558c6f819007120800000000000000
+      internalID: 2409435803467404665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 65
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04af83abc223a84a0800000000000000
+      internalID: -6590399937019053504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 65
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638ea48064dfd59d0800000000000000
+      internalID: -2783790517416433610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde59b126f7a23350800000000000000
+      internalID: 5995038729553141471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15d15631cd7ba330800000000000000
+      internalID: 3723207785745339676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4521e257105c9ea20800000000000000
+      internalID: 3092219229218148948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a60e6489f5ad790800000000000000
+      internalID: -7504580721430730106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 65
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e068d0a18e8d4b00800000000000000
+      internalID: 814463795024388328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f94e82029c0f6ea0800000000000000
+      internalID: -5877465167447569928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee88ecd9797cc8de0800000000000000
+      internalID: -1329468335979591442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 65
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3488061644d79760800000000000000
+      internalID: 7464668304872342586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0262773a5dfb87bf0800000000000000
+      internalID: -326300048692926944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_25
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bb939d46b2fc270800000000000000
+      internalID: 8272878752644053845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_26
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4248cc854060f90800000000000000
+      internalID: -6987892992383900468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_27
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baba55eeaf181c30800000000000000
+      internalID: 4330245877749430963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e8735bc5e08eb10800000000000000
+      internalID: 2010873024961023605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518cd77b50a748740800000000000000
+      internalID: 5153378038590588949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa9f9fa0f6bb83c0800000000000000
+      internalID: -4356187069695943951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b2f54891949a890800000000000000
+      internalID: -7446340134936564912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_32
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ebf8e8630f5bd40800000000000000
+      internalID: 5599645828815765087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_33
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f0de28ef57c65d0800000000000000
+      internalID: -3067947510167433427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8675877efc7aeffe0800000000000000
+      internalID: -1153299943176775832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7298ed3d06c9de50800000000000000
+      internalID: 6834711669686964862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_36
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d543ef1558bb750800000000000000
+      internalID: 6321793089148312922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653eee8a4aacbcd70800000000000000
+      internalID: 9064561483570930518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_38
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcadba8e6a1beb00800000000000000
+      internalID: 858809216020622588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_39
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1d92edda44ab130800000000000000
+      internalID: 3583251967073964524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b54ed6239c46c230800000000000000
+      internalID: 3658695942181111224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc5f6190f8952a0800000000000000
+      internalID: -6748205297435292302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0b917a7c70c0280800000000000000
+      internalID: -9075870594975026974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc69c40794920d670800000000000000
+      internalID: 8561388287024731855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_44
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 53
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68da0cafd82fc7070800000000000000
+      internalID: 8105620120971292038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_45
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 53
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339cd1da8bb88d800800000000000000
+      internalID: 637412972567578931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_46
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ceed17beffadc80800000000000000
+      internalID: -8297037976783885261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_47
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe4f8b671b41d050800000000000000
+      internalID: 5823518357127646960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_48
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f46a93a51cdb420800000000000000
+      internalID: 2647484749222137637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_49
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4ec12d05c839850800000000000000
+      internalID: 6382599375664506043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d874534e3965bbc0800000000000000
+      internalID: -3767989797087053616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 35
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92a2366f84dc0dc0800000000000000
+      internalID: -3671325883853790561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca20c7084b466d170800000000000000
+      internalID: 8202854497714438828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_53
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2deafb2202884b0800000000000000
+      internalID: -5438061216432991528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_54
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 35
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26403fba925ed440800000000000000
+      internalID: 4962494663994918443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_55
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 35
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255c3046c221bd170800000000000000
+      internalID: 8204171128051320146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_56
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 35
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f135865220e15c0800000000000000
+      internalID: -4242951439249105023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_57
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 35
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf07f23bce4259c0800000000000000
+      internalID: -3940000089355382848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_58
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6919fd8e2427d8c00800000000000000
+      internalID: 904504731871711638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_59
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2ccd6010750f8a0800000000000000
+      internalID: -6273418619005386041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_60
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11674f4d3d4df030800000000000000
+      internalID: 3530062608646758684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_61
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf5322f6632cf150800000000000000
+      internalID: 5907635736259289021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_62
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e0bbda4ed713770800000000000000
+      internalID: 8588784385492979227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_63
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9757167214d42c30800000000000000
+      internalID: 4333821917193000859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f81820f77718200800000000000000
+      internalID: 180556847458127648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_65
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb367e7bbbea89a90800000000000000
+      internalID: -7306898274141117508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_66
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa3be377c0e783c0800000000000000
+      internalID: -4357266967209755908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_67
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f9c6d85d1876620800000000000000
+      internalID: 2767323250243182445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_68
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5515715515bcc4d0800000000000000
+      internalID: -3112914139254287011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_69
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19ac2be10d406680800000000000000
+      internalID: -8763920204227106531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_70
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 22
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363322a65b68b7f90800000000000000
+      internalID: -6954817085815770269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_71
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f674b30597de774f0800000000000000
+      internalID: -830934500933679249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_72
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db672b59d19fc3880800000000000000
+      internalID: -8629748880487844163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_73
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8969ec8af6e4ccba0800000000000000
+      internalID: -6067388356494453096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_74
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfe87267ac42bbf0800000000000000
+      internalID: -310101142539800646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_75
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a13b23b675811b0800000000000000
+      internalID: -5685698411631535542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_76
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250e65c573cd58f80800000000000000
+      internalID: -8104829824052830126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_77
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea440bd7c3ee9be0800000000000000
+      internalID: -1468485980963714330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_78
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 23
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856f475266b639df0800000000000000
+      internalID: -174677874078058920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_79
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb818d4ba9aca6d0800000000000000
+      internalID: -2977818700393903156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_80
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b4461b202df8e70800000000000000
+      internalID: 9119738679456451371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_81
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9033a5d85a5730d30800000000000000
+      internalID: 4396487015145288457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_82
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5304c99f8be6d6290800000000000000
+      internalID: -7895532830969806795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_83
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9647e5b50ee301390800000000000000
+      internalID: -7849705017180261271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 22
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49656109a3569ac0800000000000000
+      internalID: -3848796846203508403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_85
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f1efbc18ef4caa0800000000000000
+      internalID: -6141504158399848692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_86
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f619e2964a2bab0800000000000000
+      internalID: -4993748265140654333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_87
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eaf06b5ed7eedf0800000000000000
+      internalID: -149043312101183990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_88
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50610c394feea7700800000000000000
+      internalID: 539005839642465797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_89
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb93d073df5a316d0800000000000000
+      internalID: -3020888418066548289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22701e849ebe430b0800000000000000
+      internalID: -5749711437062666462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_91
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8a5a51013a16680800000000000000
+      internalID: -8763544110408292112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_92
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484147ae9a18e2000800000000000000
+      internalID: 13090415711622276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c225194573f806540800000000000000
+      internalID: 4999153054186033708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_94
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4935045b43b9a990800000000000000
+      internalID: -7374165778728928945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_95
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c48f6b485b16490800000000000000
+      internalID: -7754717501745247209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_96
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0a84f34e2722820800000000000000
+      internalID: 2892000235365114093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_97
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623d9300a158410e0800000000000000
+      internalID: -2300067162960047322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_98
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7350c00e804215d0800000000000000
+      internalID: -3093339015407971457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_99
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6445bf0d241f9110800000000000000
+      internalID: 1269755803711390827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_100
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefc50446ac8fe6c0800000000000000
+      internalID: -4111913289032282129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_101
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0db1bb9b21b3c030800000000000000
+      internalID: 3513846935132945679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_102
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359282c3b17035280800000000000000
+      internalID: -9055886612157159085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_103
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 11
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e4262b853768a00800000000000000
+      internalID: 758420412045610611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_104
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d86b72882490190800000000000000
+      internalID: -7995786510870344439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_105
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420facf7d22423190800000000000000
+      internalID: -7984246426189500380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_106
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5228ad91f7a667c50800000000000000
+      internalID: 6662629792868368933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_107
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32f36f850885ebe0800000000000000
+      internalID: -1448602147667840450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_108
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620f8cb76f90f3c60800000000000000
+      internalID: 7799964033872359462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_impossible_109
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46dd9c142e138ed0800000000000000
+      internalID: -2413051834892691893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
