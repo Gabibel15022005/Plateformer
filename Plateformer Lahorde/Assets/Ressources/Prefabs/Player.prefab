@@ -97,7 +97,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2578411785353710481}
   - component: {fileID: 8917444348796881594}
+  - component: {fileID: 4478117965012998920}
   - component: {fileID: 9091433132801244008}
+  - component: {fileID: 1738485620954212285}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -149,6 +151,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4478117965012998920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644120804013992405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a7621385c5c454894f0ec4669c8493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &9091433132801244008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +204,28 @@ MonoBehaviour:
   _defaultGravity: 2
   _fallGravity: 2.5
   _fastFallGravity: 2.75
+--- !u!95 &1738485620954212285
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644120804013992405}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8530578adbaa7624393b8586f233df47, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4379095012026833466
 GameObject:
   m_ObjectHideFlags: 0
