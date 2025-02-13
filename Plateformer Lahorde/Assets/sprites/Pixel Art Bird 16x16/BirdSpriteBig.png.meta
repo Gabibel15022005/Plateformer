@@ -159,6 +159,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -659,7 +672,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BirdSpriteBig_0: -1195460924702918095
+      BirdSpriteBig_1: -2973923399647692467
+      BirdSpriteBig_10: 7371047797928472094
+      BirdSpriteBig_11: -4952877654604075384
+      BirdSpriteBig_12: -1940247826025174768
+      BirdSpriteBig_13: 7228517442652188372
+      BirdSpriteBig_14: -5775778664093424308
+      BirdSpriteBig_15: -2905405173073258760
+      BirdSpriteBig_16: -6482590814760589303
+      BirdSpriteBig_17: -1735853559887035219
+      BirdSpriteBig_18: -2257318837438534525
+      BirdSpriteBig_19: -2694058217070234010
+      BirdSpriteBig_2: 1751818692509540256
+      BirdSpriteBig_20: 7955539703302138208
+      BirdSpriteBig_21: 7828628357028468811
+      BirdSpriteBig_3: 6038166691223830835
+      BirdSpriteBig_4: -2342481669677335362
+      BirdSpriteBig_5: -198723650723519145
+      BirdSpriteBig_6: -3233344146888124075
+      BirdSpriteBig_7: 5315320202944946136
+      BirdSpriteBig_8: -7458353679443074836
+      BirdSpriteBig_9: 5804503599977582663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

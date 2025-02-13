@@ -423,6 +423,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2859,7 +2872,117 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      font_impossible_0: -8077563681121741546
+      font_impossible_1: -5703312168645835758
+      font_impossible_10: 6780341688654625121
+      font_impossible_100: -4111913289032282129
+      font_impossible_101: 3513846935132945679
+      font_impossible_102: -9055886612157159085
+      font_impossible_103: 758420412045610611
+      font_impossible_104: -7995786510870344439
+      font_impossible_105: -7984246426189500380
+      font_impossible_106: 6662629792868368933
+      font_impossible_107: -1448602147667840450
+      font_impossible_108: 7799964033872359462
+      font_impossible_109: -2413051834892691893
+      font_impossible_11: 2582013689457958894
+      font_impossible_12: -8966554132023807492
+      font_impossible_13: 2409435803467404665
+      font_impossible_14: -6590399937019053504
+      font_impossible_15: -2783790517416433610
+      font_impossible_16: 5995038729553141471
+      font_impossible_17: 3723207785745339676
+      font_impossible_18: 3092219229218148948
+      font_impossible_19: -7504580721430730106
+      font_impossible_2: -1946798041027439220
+      font_impossible_20: 814463795024388328
+      font_impossible_21: -5877465167447569928
+      font_impossible_22: -1329468335979591442
+      font_impossible_23: 7464668304872342586
+      font_impossible_24: -326300048692926944
+      font_impossible_25: 8272878752644053845
+      font_impossible_26: -6987892992383900468
+      font_impossible_27: 4330245877749430963
+      font_impossible_28: 2010873024961023605
+      font_impossible_29: 5153378038590588949
+      font_impossible_3: -6818846699411923556
+      font_impossible_30: -4356187069695943951
+      font_impossible_31: -7446340134936564912
+      font_impossible_32: 5599645828815765087
+      font_impossible_33: -3067947510167433427
+      font_impossible_34: -1153299943176775832
+      font_impossible_35: 6834711669686964862
+      font_impossible_36: 6321793089148312922
+      font_impossible_37: 9064561483570930518
+      font_impossible_38: 858809216020622588
+      font_impossible_39: 3583251967073964524
+      font_impossible_4: 6968788537259889799
+      font_impossible_40: 3658695942181111224
+      font_impossible_41: -6748205297435292302
+      font_impossible_42: -9075870594975026974
+      font_impossible_43: 8561388287024731855
+      font_impossible_44: 8105620120971292038
+      font_impossible_45: 637412972567578931
+      font_impossible_46: -8297037976783885261
+      font_impossible_47: 5823518357127646960
+      font_impossible_48: 2647484749222137637
+      font_impossible_49: 6382599375664506043
+      font_impossible_5: 6498638691509994314
+      font_impossible_50: -3767989797087053616
+      font_impossible_51: -3671325883853790561
+      font_impossible_52: 8202854497714438828
+      font_impossible_53: -5438061216432991528
+      font_impossible_54: 4962494663994918443
+      font_impossible_55: 8204171128051320146
+      font_impossible_56: -4242951439249105023
+      font_impossible_57: -3940000089355382848
+      font_impossible_58: 904504731871711638
+      font_impossible_59: -6273418619005386041
+      font_impossible_6: -8967075542414412557
+      font_impossible_60: 3530062608646758684
+      font_impossible_61: 5907635736259289021
+      font_impossible_62: 8588784385492979227
+      font_impossible_63: 4333821917193000859
+      font_impossible_64: 180556847458127648
+      font_impossible_65: -7306898274141117508
+      font_impossible_66: -4357266967209755908
+      font_impossible_67: 2767323250243182445
+      font_impossible_68: -3112914139254287011
+      font_impossible_69: -8763920204227106531
+      font_impossible_7: 4026303278800156052
+      font_impossible_70: -6954817085815770269
+      font_impossible_71: -830934500933679249
+      font_impossible_72: -8629748880487844163
+      font_impossible_73: -6067388356494453096
+      font_impossible_74: -310101142539800646
+      font_impossible_75: -5685698411631535542
+      font_impossible_76: -8104829824052830126
+      font_impossible_77: -1468485980963714330
+      font_impossible_78: -174677874078058920
+      font_impossible_79: -2977818700393903156
+      font_impossible_8: -7106283156222836462
+      font_impossible_80: 9119738679456451371
+      font_impossible_81: 4396487015145288457
+      font_impossible_82: -7895532830969806795
+      font_impossible_83: -7849705017180261271
+      font_impossible_84: -3848796846203508403
+      font_impossible_85: -6141504158399848692
+      font_impossible_86: -4993748265140654333
+      font_impossible_87: -149043312101183990
+      font_impossible_88: 539005839642465797
+      font_impossible_89: -3020888418066548289
+      font_impossible_9: -434333837370555470
+      font_impossible_90: -5749711437062666462
+      font_impossible_91: -8763544110408292112
+      font_impossible_92: 13090415711622276
+      font_impossible_93: 4999153054186033708
+      font_impossible_94: -7374165778728928945
+      font_impossible_95: -7754717501745247209
+      font_impossible_96: 2892000235365114093
+      font_impossible_97: -2300067162960047322
+      font_impossible_98: -3093339015407971457
+      font_impossible_99: 1269755803711390827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

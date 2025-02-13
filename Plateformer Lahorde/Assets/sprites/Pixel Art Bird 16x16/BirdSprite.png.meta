@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -284,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BirdSprite_0: -1207841707077272702
+      BirdSprite_1: -56839117156836721
+      BirdSprite_2: -2966782557986119690
+      BirdSprite_3: -7547327171053007460
+      BirdSprite_4: -6712714386521412304
+      BirdSprite_5: -3027467885991443842
+      BirdSprite_6: -3724123321965674295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
