@@ -10,11 +10,10 @@ public class ScOnDeathPlayer : MonoBehaviour
 
     void Start()
     {
-        _scPlayerMovement = GetComponent<ScPlayerMovement>();
+        _scPlayerMovement = GetComponentInParent<ScPlayerMovement>();
         _playerAnimator = GetComponent<Animator>();
         _transiAnimator = Camera.main.GetComponentInChildren<Animator>();
     }
-
     public void OnDeath()
     {
         _scPlayerMovement.StopPlayer(true);

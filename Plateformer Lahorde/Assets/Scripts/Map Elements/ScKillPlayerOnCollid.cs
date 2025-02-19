@@ -7,7 +7,7 @@ public class ScKillPlayerOnCollid : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player")) 
         {
-            other.gameObject.GetComponent<ScOnDeathPlayer>().OnDeath();
+            other.gameObject.GetComponentInChildren<ScOnDeathPlayer>().OnDeath();
         }
 
     }

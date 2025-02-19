@@ -8,6 +8,7 @@ public class ScPlayerMovement : MonoBehaviour
 {
     [HideInInspector] public Rigidbody2D Rb;
     [SerializeField] private GameObject _visuel;
+    private Animator playerAnimator;
 
 #region Move Variables
 
@@ -20,6 +21,7 @@ public class ScPlayerMovement : MonoBehaviour
     [SerializeField] private float _fastDeceleration = 10f;
     [SerializeField] private float _bounceDuration = 0.3f;
     [HideInInspector] public bool IsBouncing = false;
+    private bool _isMoving = false;
 
     [Space(20)]
 
@@ -32,6 +34,7 @@ public class ScPlayerMovement : MonoBehaviour
     [SerializeField] private float _angleDiagonal;
     private bool _pressedJump;
     private bool _canJump;
+    private bool _performedWallJump;
     [Space(20)]
 
 #endregion
@@ -97,15 +100,31 @@ public class ScPlayerMovement : MonoBehaviour
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
+        playerAnimator = _visuel.GetComponent<Animator>();
     }
 
     void Update()
     {
-        Check();
+        VisuelForAnim();
+        CheckForVisuel();
+        CheckAround();
         Dash();
         Fall();
         Move();
         Jump();
+    }
+
+#endregion
+
+#region Visuel
+
+    private void VisuelForAnim()
+    {
+        playerAnimator.SetBool("IsMoving", _isMoving);
+        playerAnimator.SetBool("IsDashing", _isDashing);
+        playerAnimator.SetBool("IsGrounded", _isGrounded);
+        playerAnimator.SetFloat("YVelocity", Rb.linearVelocity.y);
+        playerAnimator.SetBool("PerformedWallJump", _performedWallJump);
     }
 
 #endregion
@@ -340,13 +359,19 @@ public class ScPlayerMovement : MonoBehaviour
         }
         else if (_canJump && _isAgainstLeftWall)
         {
+            _performedWallJump = true;
             Rb.linearVelocity = new UnityEngine.Vector2(0,0);
             Rb.AddForce(new UnityEngine.Vector2(_angleDiagonal , 1) * _jumpForce, ForceMode2D.Impulse);
         }
         else if (_canJump && _isAgainstRightWall)
         {
+            _performedWallJump = true;
             Rb.linearVelocity = new UnityEngine.Vector2(0,0);
             Rb.AddForce(new UnityEngine.Vector2(_angleDiagonal * -1 , 1) * _jumpForce, ForceMode2D.Impulse);
+        }
+        else
+        {
+            _performedWallJump = false;
         }
     } 
 
@@ -354,12 +379,33 @@ public class ScPlayerMovement : MonoBehaviour
 
 #region Check
 
-    private void Check()
+    private void CheckForVisuel()
+    {
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+
+        if (horizontalInput < -0.1)
+        {
+            //_visuel.transform.localScale = new UnityEngine.Vector3(-1,1,1);
+            _visuel.GetComponent<SpriteRenderer>().flipX = true;
+            _isMoving = true;
+        }
+        else if (horizontalInput > 0.1)
+        {
+            //_visuel.transform.localScale = new UnityEngine.Vector3(1,1,1);
+            _visuel.GetComponent<SpriteRenderer>().flipX = false;
+            _isMoving = true;
+        }
+        else
+        {
+            _isMoving = false;
+        }
+    }
+    private void CheckAround()
     {
         Collider2D[] groundColliders = Physics2D.OverlapBoxAll(_groundBoxPos.position, _groundBoxShape, 0, _groundLayer);
         _isGrounded = groundColliders.Length > 0; 
 
-        if (!IsAbleToDash && !_isDashing)
+        if (!IsAbleToDash && !_isDashing) // récup le dash quand on touche le sol
         {
             IsAbleToDash = groundColliders.Length > 0; 
         }
