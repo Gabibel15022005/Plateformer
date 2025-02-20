@@ -18,6 +18,13 @@ public class ScChangeRoom : MonoBehaviour
         if (_camera.LimitX != _newLimitX || _camera.LimitY != _newLimitY)
         {
             _camera.StartTransition(_newLimitX, _newLimitY, _delayChangeZone);
+            
+            PlayerPrefs.SetFloat("LimitX.x", _newLimitX.x);
+            PlayerPrefs.SetFloat("LimitX.y", _newLimitX.y);
+            PlayerPrefs.SetFloat("LimitY.x", _newLimitY.x);
+            PlayerPrefs.SetFloat("LimitY.y", _newLimitY.y);
+            PlayerPrefs.Save();
+
         }
     }
 

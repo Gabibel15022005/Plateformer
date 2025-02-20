@@ -15,6 +15,14 @@ public class ScCameraSettings : MonoBehaviour
 
     void Start()
     {
+        if (PlayerPrefs.HasKey("LimitX.x"))
+        {
+            LimitX.x = PlayerPrefs.GetFloat("LimitX.x");
+            LimitX.y = PlayerPrefs.GetFloat("LimitX.y");
+            LimitY.x = PlayerPrefs.GetFloat("LimitY.x");
+            LimitY.y = PlayerPrefs.GetFloat("LimitY.y");
+        }
+        
         _targetLimitX = LimitX;
         _targetLimitY = LimitY;
     }

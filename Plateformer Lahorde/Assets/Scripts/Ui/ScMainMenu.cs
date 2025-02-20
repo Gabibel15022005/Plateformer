@@ -39,6 +39,10 @@ public class ScMainMenu : MonoBehaviour
         {
             PlayerPrefs.DeleteKey("CheckpointX");
             PlayerPrefs.DeleteKey("CheckpointY");
+            PlayerPrefs.DeleteKey("LimitX.x");
+            PlayerPrefs.DeleteKey("LimitX.y");
+            PlayerPrefs.DeleteKey("LimitY.x");
+            PlayerPrefs.DeleteKey("LimitY.y");
             PlayerPrefs.Save();
             
             Debug.Log("Checkpoint Reset !");

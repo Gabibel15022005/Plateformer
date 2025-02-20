@@ -8,6 +8,9 @@ public class ScPlayerMovement : MonoBehaviour
 {
     [HideInInspector] public Rigidbody2D Rb;
     [SerializeField] private GameObject _visuel;
+    [SerializeField] private TrailRenderer _dashTrail;
+    [SerializeField] private GameObject _collisionParticles;
+
     private Animator playerAnimator;
 
 #region Move Variables
@@ -20,7 +23,7 @@ public class ScPlayerMovement : MonoBehaviour
     [SerializeField] private float _bounceDeceleration = 5f;
     [SerializeField] private float _fastDeceleration = 10f;
     [SerializeField] private float _bounceDuration = 0.3f;
-    [HideInInspector] public bool IsBouncing = false;
+    private bool _isBouncing = false;
     private bool _isMoving = false;
 
     [Space(20)]
@@ -72,6 +75,11 @@ public class ScPlayerMovement : MonoBehaviour
     [SerializeField] private Transform _groundBoxPos;
     private bool _isGrounded = false;
 
+[Header("CeilingCheck")] 
+    [SerializeField] private UnityEngine.Vector2 _ceilingBoxShape;
+    [SerializeField] private Transform _ceilingBoxPos;
+    private bool _isCeiled = false;
+
 [Header("LeftWallCheck")] 
     [SerializeField] private UnityEngine.Vector2 _leftWallBoxShape;
     [SerializeField] private Transform _leftWallBoxPos;
@@ -121,7 +129,6 @@ public class ScPlayerMovement : MonoBehaviour
     private void VisuelForAnim()
     {
         playerAnimator.SetBool("IsMoving", _isMoving);
-        playerAnimator.SetBool("IsDashing", _isDashing);
         playerAnimator.SetBool("IsGrounded", _isGrounded);
         playerAnimator.SetFloat("YVelocity", Rb.linearVelocity.y);
         playerAnimator.SetBool("PerformedWallJump", _performedWallJump);
@@ -130,7 +137,6 @@ public class ScPlayerMovement : MonoBehaviour
 #endregion
 
 #region Dash
-
     void Dash()
     {
         bool pressingDash = Input.GetAxisRaw("Dash") > 0;
@@ -172,13 +178,14 @@ public class ScPlayerMovement : MonoBehaviour
             _pressedDash = false;
         }
 
-        if (_canDash && IsAbleToDash)                                      // si le bouton vient d'etre pressé et si tu peut dash
+        if (_canDash && IsAbleToDash)                                 // si le bouton vient d'etre pressé et si tu peut dash
         {
+            Instantiate(_collisionParticles, transform.position, UnityEngine.Quaternion.identity);
             _isDashing = true;
             IsAbleToDash = false;
             Rb.gravityScale = _dashGravity;                                // met la gravité à zero
-            Rb.linearVelocity = UnityEngine.Vector2.zero;                              // reset la velocité avant le dash
-            if (directionInput == UnityEngine.Vector2.zero)                            // pour éviter de faire des dash inutile sans faire expres
+            Rb.linearVelocity = UnityEngine.Vector2.zero;                  // reset la velocité avant le dash
+            if (directionInput == UnityEngine.Vector2.zero)                // pour éviter de faire des dash inutile sans faire expres
             {
                 directionInput = UnityEngine.Vector2.up;
             }
@@ -215,7 +222,6 @@ public class ScPlayerMovement : MonoBehaviour
         } 
 
     }
-
     private IEnumerator WasDashing()
     {
         _wasDashing = true;
@@ -276,23 +282,23 @@ public class ScPlayerMovement : MonoBehaviour
             }
 
         }
-        else if (_isGrounded == false && !IsBouncing)
+        else if (_isGrounded == false && !_isBouncing)
         {
             // Décélération progressive lorsque aucune touche n'est enfoncée
             currentSpeed = Mathf.MoveTowards(currentSpeed, 0, _deceleration * Time.deltaTime);
         }
-        else if (!IsBouncing)
+        else if (!_isBouncing)
         {
             // Décélération progressive lorsque aucune touche n'est enfoncée
             currentSpeed = Mathf.MoveTowards(currentSpeed, 0, _fastDeceleration * Time.deltaTime);
         }
 
-        if (IsBouncing)                                                                               // si je vient de rebondir 
+        if (_isBouncing)                                                                               // si je vient de rebondir 
         {
             currentSpeed = Mathf.MoveTowards(currentSpeed, 0, _bounceDeceleration * Time.deltaTime);  // ralentit
         }
 
-        if (!IsBouncing)                                                // Je cape la vitesse
+        if (!_isBouncing)                                                // Je cape la vitesse
         {
             currentSpeed = Mathf.Clamp(currentSpeed, -_maxSpeed, _maxSpeed);
         }
@@ -306,13 +312,13 @@ public class ScPlayerMovement : MonoBehaviour
 
     public void Bounce()
     {
-        IsBouncing = true;
+        _isBouncing = true;
         StartCoroutine(BounceDuration());
     }
     private IEnumerator BounceDuration()
     {
         yield return new WaitForSeconds(_bounceDuration);
-        IsBouncing = false;
+        _isBouncing = false;
     }
 
 #endregion
@@ -378,9 +384,16 @@ public class ScPlayerMovement : MonoBehaviour
 #endregion
 
 #region Check
-
     private void CheckForVisuel()
     {
+        if (_isDashing || _isBouncing)
+        {
+            _dashTrail.emitting = true;
+        }
+        else
+        {
+            _dashTrail.emitting = false;
+        }
         float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         if (horizontalInput < -0.1)
@@ -402,7 +415,10 @@ public class ScPlayerMovement : MonoBehaviour
     }
     private void CheckAround()
     {
+
         Collider2D[] groundColliders = Physics2D.OverlapBoxAll(_groundBoxPos.position, _groundBoxShape, 0, _groundLayer);
+        if (!_isGrounded && groundColliders.Length > 0) // si tu viens tout juste de touche le sol alors créer des particules
+            Instantiate(_collisionParticles, _groundBoxPos.position, UnityEngine.Quaternion.identity);
         _isGrounded = groundColliders.Length > 0; 
 
         if (!IsAbleToDash && !_isDashing) // récup le dash quand on touche le sol
@@ -410,10 +426,21 @@ public class ScPlayerMovement : MonoBehaviour
             IsAbleToDash = groundColliders.Length > 0; 
         }
 
+        Collider2D[] ceilingColliders = Physics2D.OverlapBoxAll(_ceilingBoxPos.position, _ceilingBoxShape, 0, _groundLayer);
+        if (!_isCeiled && ceilingColliders.Length > 0) // si tu viens tout juste de touche le sol alors créer des particules
+            Instantiate(_collisionParticles, _ceilingBoxPos.position, UnityEngine.Quaternion.Euler(0,0,180));
+        _isCeiled = ceilingColliders.Length > 0;
+
+
         Collider2D[] leftColliders = Physics2D.OverlapBoxAll(_leftWallBoxPos.position, _leftWallBoxShape, 0, _groundLayer);
+        if (!_isAgainstLeftWall && leftColliders.Length > 0) // si tu viens tout juste de touche le sol alors créer des particules
+            Instantiate(_collisionParticles, _leftWallBoxPos.position, UnityEngine.Quaternion.Euler(0,0,-90));
         _isAgainstLeftWall = leftColliders.Length > 0; 
 
+
         Collider2D[] rightColliders = Physics2D.OverlapBoxAll(_rightWallBoxPos.position, _rightWallBoxShape, 0, _groundLayer);
+         if (!_isAgainstRightWall && rightColliders.Length > 0) // si tu viens tout juste de touche le sol alors créer des particules
+            Instantiate(_collisionParticles, _rightWallBoxPos.position, UnityEngine.Quaternion.Euler(0,0,90));
         _isAgainstRightWall = rightColliders.Length > 0; 
 
     }
@@ -425,11 +452,8 @@ public class ScPlayerMovement : MonoBehaviour
     private void OnDrawGizmos() {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(_groundBoxPos.position, _groundBoxShape);
-
-        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(_ceilingBoxPos.position, _ceilingBoxShape);
         Gizmos.DrawWireCube(_leftWallBoxPos.position, _leftWallBoxShape);
-
-        Gizmos.color = Color.red;
         Gizmos.DrawWireCube(_rightWallBoxPos.position, _rightWallBoxShape);
     }
 
