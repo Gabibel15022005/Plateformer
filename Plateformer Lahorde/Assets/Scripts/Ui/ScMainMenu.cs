@@ -6,33 +6,37 @@ using UnityEngine.SceneManagement;
 
 public class ScMainMenu : MonoBehaviour
 {
-    public void GoToSceneTest()
+    [SerializeField] private GameObject _selectPanel;
+    public void NewGame()
     {
-        Debug.Log("Pressed Play Button");
-        StartCoroutine(GoToSceneTest_Co());
-
-        ResetPlayerPrefs();
+        Debug.Log("NewGame");
+        StartCoroutine(GoToScene("Level 1"));
+        ResetCheckPoint();
+        ResetPlayerPrefs(); // fonction pour effacer la progression du joueur
     }
-    private IEnumerator GoToSceneTest_Co()
+    public void Continue()
+    {
+        Debug.Log("Continue");
+        StartCoroutine(GoToScene("Level 1"));
+        ResetCheckPoint();
+    }
+    public void ActiveSelectPanel()
+    {
+        if (_selectPanel.activeSelf)
+        {
+            _selectPanel.SetActive(false);
+        }
+        else
+        {
+            _selectPanel.SetActive(true);
+        }
+    }
+    private IEnumerator GoToScene(string sceneName)
     {
         yield return new WaitForSeconds(0.75f);
-        Debug.Log("Execute Play Button");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // METTRE le niveau 1
+        SceneManager.LoadScene(sceneName);
     }
-
-    public void Quit()
-    {
-        Debug.Log("Pressed Quit Button");
-        StartCoroutine(Quit_Co());
-    }
-    private IEnumerator Quit_Co()
-    {
-        yield return new WaitForSeconds(0.75f);
-        Debug.Log("Execute Quit Button");
-        Application.Quit();
-    }
-
-    private void ResetPlayerPrefs()
+    private void ResetCheckPoint()
     {
         // Reset les PlayerPrefs du joueur ,  EN GROS  un bouton nouvelle partie
         if (PlayerPrefs.HasKey("CheckpointX"))
@@ -44,8 +48,36 @@ public class ScMainMenu : MonoBehaviour
             PlayerPrefs.DeleteKey("LimitY.x");
             PlayerPrefs.DeleteKey("LimitY.y");
             PlayerPrefs.Save();
-            
-            Debug.Log("Checkpoint Reset !");
         }
+    }
+
+    private void ResetPlayerPrefs()
+    {
+        // Reset les PlayerPrefs du joueur ,  EN GROS  un bouton nouvelle partie
+        if (PlayerPrefs.HasKey("CheckpointX"))
+        {
+            PlayerPrefs.DeleteKey("LevelMaxActuelle");      // reset le niveau max atteint
+
+            PlayerPrefs.DeleteKey("HasDashUpgrade");        // reset les améliorations débloquer
+            PlayerPrefs.DeleteKey("HasWallJumpUpgrade");
+            PlayerPrefs.DeleteKey("HasGrabUpgrade");
+
+            PlayerPrefs.Save();
+        }
+    }
+
+
+
+    
+    public void Quit()
+    {
+        Debug.Log("Pressed Quit Button");
+        StartCoroutine(Quit_Co());
+    }
+    private IEnumerator Quit_Co()
+    {
+        yield return new WaitForSeconds(0.75f);
+        Debug.Log("Execute Quit Button");
+        Application.Quit();
     }
 }
