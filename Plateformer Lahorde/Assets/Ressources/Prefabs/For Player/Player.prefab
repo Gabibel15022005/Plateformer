@@ -88,7 +88,7 @@ MonoBehaviour:
   _fastDeceleration: 30
   _bounceDuration: 0.3
   _jumpForce: 11
-  _angleDiagonal: 2
+  _angleDiagonal: 3
   _sensitivity: 0.3
   _dashForce: 20
   _dashTime: 0.18
