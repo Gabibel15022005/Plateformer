@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3780310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1708,6 +1708,10 @@ MonoBehaviour:
   - Level 1
   - Level 2
   buttonPrefab: {fileID: 3799949169418537483, guid: 4827fcec1ac5da548bdc4ad0419508c9, type: 3}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  highlightedColor: {r: 0.7056604, g: 0.7056604, b: 0.7056604, a: 1}
+  pressedColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  selectedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1904980756
 GameObject:
   m_ObjectHideFlags: 0

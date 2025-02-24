@@ -1,8 +1,7 @@
-using System;
 using System.Collections;
 using System.Numerics;
-using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ScPlayerMovement : MonoBehaviour
 {
@@ -10,7 +9,6 @@ public class ScPlayerMovement : MonoBehaviour
     [SerializeField] private GameObject _visuel;
     [SerializeField] private TrailRenderer _dashTrail;
     [SerializeField] private GameObject _collisionParticles;
-
     private Animator playerAnimator;
 
 #region Move Variables
@@ -103,12 +101,22 @@ public class ScPlayerMovement : MonoBehaviour
 
 #endregion
 
+#region Input Variable
+    private UnityEngine.Vector2 _moveInput;
+    private bool _jumpInput;
+    private bool _dashInput;
+    private bool _interactInput;
+    private bool _pauseInput;
+
+#endregion
+
 #region Start / Update
 
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
         playerAnimator = _visuel.GetComponent<Animator>();
+
     }
 
     void Update()
@@ -116,10 +124,74 @@ public class ScPlayerMovement : MonoBehaviour
         VisuelForAnim();
         CheckForVisuel();
         CheckAround();
-        Dash();
         Fall();
         Move();
         Jump();
+
+        if (PlayerPrefs.HasKey("Dash"))
+        {
+            Dash();
+        }
+    }
+
+#endregion
+
+#region Input
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            _moveInput = context.ReadValue<UnityEngine.Vector2>();
+        }
+        else
+        {
+            _moveInput = UnityEngine.Vector2.zero;
+        }
+    }
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            _jumpInput = true;
+        }
+        else
+        {
+            _jumpInput = false;
+        }
+    }
+
+    public void OnDash(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            _dashInput = true;
+        }
+        else
+        {
+            _dashInput = false;
+        }
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            _interactInput = true;
+        }
+        else
+        {
+            _interactInput = false;
+        }
+    }
+
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Camera.main.transform.parent.GetComponentInChildren<ScPauseMenu>().TogglePause();
+        }
     }
 
 #endregion
@@ -132,6 +204,25 @@ public class ScPlayerMovement : MonoBehaviour
         playerAnimator.SetBool("IsGrounded", _isGrounded);
         playerAnimator.SetFloat("YVelocity", Rb.linearVelocity.y);
         playerAnimator.SetBool("PerformedWallJump", _performedWallJump);
+
+        if (Time.deltaTime == 0) return; // éviter de pouvoir tourner le sprite pendant que le jeu est en pause
+
+        if (_moveInput.x < -0.1)
+        {
+            //_visuel.transform.localScale = new UnityEngine.Vector3(-1,1,1);
+            _visuel.GetComponent<SpriteRenderer>().flipX = true;
+            _isMoving = true;
+        }
+        else if (_moveInput.x > 0.1)
+        {
+            //_visuel.transform.localScale = new UnityEngine.Vector3(1,1,1);
+            _visuel.GetComponent<SpriteRenderer>().flipX = false;
+            _isMoving = true;
+        }
+        else
+        {
+            _isMoving = false;
+        }
     }
 
 #endregion
@@ -139,23 +230,23 @@ public class ScPlayerMovement : MonoBehaviour
 #region Dash
     void Dash()
     {
-        bool pressingDash = Input.GetAxisRaw("Dash") > 0;
+        bool pressingDash = _dashInput;
 
         float directionX;
         float directionY;
 
         // Bloquer à seulement 8 direction
 
-        if (Input.GetAxisRaw("Horizontal") > _sensitivity)
+        if (_moveInput.x > _sensitivity)
         directionX = 1;
-        else if (Input.GetAxisRaw("Horizontal") < -_sensitivity)
+        else if (_moveInput.x < -_sensitivity)
         directionX = -1;
         else
         directionX = 0;
 
-        if (Input.GetAxisRaw("Vertical") > _sensitivity)
+        if (_moveInput.y > _sensitivity)
         directionY = 1;
-        else if (Input.GetAxisRaw("Vertical") < -_sensitivity)
+        else if (_moveInput.y < -_sensitivity)
         directionY = -1;
         else
         directionY = 0;
@@ -231,16 +322,14 @@ public class ScPlayerMovement : MonoBehaviour
         _wasDashing = true;
     }
 
-
 #endregion
 
 #region Fall
-
     private void Fall()
     {
         if (_isDashing) return;
 
-        if (Rb.linearVelocity.y < 0 && Input.GetAxisRaw("Vertical") < 0)
+        if (Rb.linearVelocity.y < 0 && _moveInput.y < 0)
         {
             Rb.gravityScale = _fastFallGravity;
         }
@@ -262,11 +351,10 @@ public class ScPlayerMovement : MonoBehaviour
     {
         if (_isDashing) return;
 
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        float targetSpeed = horizontalInput * _speed;
+        float targetSpeed = _moveInput.x * _speed;
         float currentSpeed = Rb.linearVelocity.x;
 
-        if (horizontalInput != 0) 
+        if (_moveInput.x > 0.1 || _moveInput.x < -0.1 ) 
         {
             if (Mathf.Sign(targetSpeed) < 0 && currentSpeed > 0.1 && _isGrounded == true)           // Si je veut aller à gauche alors que j'allais à droite
             {
@@ -327,7 +415,7 @@ public class ScPlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        bool pressingJump = Input.GetAxisRaw("Jump") > 0;
+        bool pressingJump = _jumpInput;
 
         // Ce if entier sert à recréer le fonctionnement de GetKeyDown
 
@@ -393,24 +481,6 @@ public class ScPlayerMovement : MonoBehaviour
         else
         {
             _dashTrail.emitting = false;
-        }
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-
-        if (horizontalInput < -0.1)
-        {
-            //_visuel.transform.localScale = new UnityEngine.Vector3(-1,1,1);
-            _visuel.GetComponent<SpriteRenderer>().flipX = true;
-            _isMoving = true;
-        }
-        else if (horizontalInput > 0.1)
-        {
-            //_visuel.transform.localScale = new UnityEngine.Vector3(1,1,1);
-            _visuel.GetComponent<SpriteRenderer>().flipX = false;
-            _isMoving = true;
-        }
-        else
-        {
-            _isMoving = false;
         }
     }
     private void CheckAround()

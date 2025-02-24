@@ -6,11 +6,15 @@ using UnityEngine.UI;
 public class ScButtonLevel : MonoBehaviour
 {
     [HideInInspector] public string SceneName;
+    [HideInInspector] public bool LevelUnlocked = false;
+
     
     // transi
     // go to the scene
     public void GoToSelectedSelectLevel()
     {
+        if (!LevelUnlocked) return;
+        
         Debug.Log("Selected Level : ");
         Camera.main.GetComponentInChildren<Animator>().Play("EnterTransition");
         StartCoroutine(GoToScene(SceneName));

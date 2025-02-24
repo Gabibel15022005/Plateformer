@@ -10,15 +10,22 @@ public class ScMainMenu : MonoBehaviour
     public void NewGame()
     {
         Debug.Log("NewGame");
-        StartCoroutine(GoToScene("Level 1"));
         ResetCheckPoint();
         ResetPlayerPrefs(); // fonction pour effacer la progression du joueur
+        StartCoroutine(GoToScene("Level 1"));
     }
     public void Continue()
     {
-        Debug.Log("Continue");
-        StartCoroutine(GoToScene("Level 1"));
-        ResetCheckPoint();
+        if (PlayerPrefs.HasKey("LevelMaxActuelle"))
+        {
+            Debug.Log("Continue");
+            StartCoroutine(GoToScene($"Level {PlayerPrefs.GetInt("LevelMaxActuelle")}"));
+            ResetCheckPoint();
+        }
+        else 
+        {
+            NewGame();
+        }
     }
     public void ActiveSelectPanel()
     {
@@ -38,6 +45,7 @@ public class ScMainMenu : MonoBehaviour
     }
     private void ResetCheckPoint()
     {
+
         // Reset les PlayerPrefs du joueur ,  EN GROS  un bouton nouvelle partie
         if (PlayerPrefs.HasKey("CheckpointX"))
         {
@@ -54,21 +62,14 @@ public class ScMainMenu : MonoBehaviour
     private void ResetPlayerPrefs()
     {
         // Reset les PlayerPrefs du joueur ,  EN GROS  un bouton nouvelle partie
-        if (PlayerPrefs.HasKey("CheckpointX"))
-        {
-            PlayerPrefs.DeleteKey("LevelMaxActuelle");      // reset le niveau max atteint
+        
+        PlayerPrefs.DeleteKey("LevelMaxActuelle");      // reset le niveau max atteint
+        PlayerPrefs.DeleteKey("Dash");        // reset les améliorations débloquer
+        PlayerPrefs.Save();
 
-            PlayerPrefs.DeleteKey("HasDashUpgrade");        // reset les améliorations débloquer
-            PlayerPrefs.DeleteKey("HasWallJumpUpgrade");
-            PlayerPrefs.DeleteKey("HasGrabUpgrade");
-
-            PlayerPrefs.Save();
-        }
+        Debug.Log("ResetPlayerPrefs has been Preformed");
     }
 
-
-
-    
     public void Quit()
     {
         Debug.Log("Pressed Quit Button");
