@@ -101,9 +101,9 @@ MonoBehaviour:
   _groundBoxPos: {fileID: 3697333273605650619}
   _ceilingBoxShape: {x: 0.65, y: 0.3}
   _ceilingBoxPos: {fileID: 1376173788251036894}
-  _leftWallBoxShape: {x: 0.3, y: 0.5}
+  _leftWallBoxShape: {x: 0.4, y: 0.7}
   _leftWallBoxPos: {fileID: 6996747028889968993}
-  _rightWallBoxShape: {x: 0.3, y: 0.5}
+  _rightWallBoxShape: {x: 0.4, y: 0.7}
   _rightWallBoxPos: {fileID: 3125815351005070884}
   _defaultGravity: 2
   _fallGravity: 2.5
@@ -265,6 +265,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: ea61599c-3f98-4154-a33a-efc30b906fb2
     m_ActionName: 'Player/Pause[/Keyboard/escape,/XInputControllerWindows/start]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9091433132801244008}
+        m_TargetAssemblyTypeName: ScPlayerMovement, Assembly-CSharp
+        m_MethodName: OnGrab
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a97957a9-d042-4f47-a21b-163cb94105d1
+    m_ActionName: 'Player/Grab[/XInputControllerWindows/leftTrigger,/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

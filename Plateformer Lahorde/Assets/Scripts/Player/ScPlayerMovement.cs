@@ -94,6 +94,7 @@ public class ScPlayerMovement : MonoBehaviour
 #region Gravity Variables
 
 [Header("Gravity Variables")] 
+    [SerializeField] private bool _grabbed = false;
     [SerializeField] private float _defaultGravity;
     [SerializeField] private float _fallGravity;  
     [SerializeField] private float _fastFallGravity;  
@@ -105,6 +106,7 @@ public class ScPlayerMovement : MonoBehaviour
     private UnityEngine.Vector2 _moveInput;
     private bool _jumpInput;
     private bool _dashInput;
+    private bool _grabInput;
     private bool _interactInput;
     private bool _pauseInput;
 
@@ -174,6 +176,18 @@ public class ScPlayerMovement : MonoBehaviour
         }
     }
 
+    public void OnGrab(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            _grabInput = true;
+        }
+        else
+        {
+            _grabInput = false;
+        }
+    }
+
     public void OnInteract(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -230,6 +244,7 @@ public class ScPlayerMovement : MonoBehaviour
 #region Dash
     void Dash()
     {
+        if (_grabbed) return;
         bool pressingDash = _dashInput;
 
         float directionX;
@@ -328,8 +343,11 @@ public class ScPlayerMovement : MonoBehaviour
     private void Fall()
     {
         if (_isDashing) return;
-
-        if (Rb.linearVelocity.y < 0 && _moveInput.y < 0)
+        if (_grabbed)
+        {
+            Rb.gravityScale = 0;
+        }
+        else if (Rb.linearVelocity.y < 0 && _moveInput.y < 0)
         {
             Rb.gravityScale = _fastFallGravity;
         }
@@ -346,10 +364,10 @@ public class ScPlayerMovement : MonoBehaviour
 #endregion
 
 #region Move
-
     void Move()
     {
         if (_isDashing) return;
+        if (_grabbed) return;
 
         float targetSpeed = _moveInput.x * _speed;
         float currentSpeed = Rb.linearVelocity.x;
@@ -534,7 +552,10 @@ public class ScPlayerMovement : MonoBehaviour
     {
         return _isDashing;
     }
-
+    public bool GetGrabInput()
+    {
+        return _grabInput;
+    }
     public GameObject GetVisuel()
     {
         return _visuel;
@@ -544,6 +565,10 @@ public class ScPlayerMovement : MonoBehaviour
 
 #region From Other Script
 
+    public void SetGrabbed(bool value)
+    {
+        _grabbed = value;
+    }
     public void StopPlayer(bool cantMoveNow)
     {
         if (cantMoveNow)

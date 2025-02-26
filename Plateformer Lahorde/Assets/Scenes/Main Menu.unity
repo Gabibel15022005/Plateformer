@@ -1708,6 +1708,7 @@ MonoBehaviour:
   - Level 1
   - Level 2
   - Level 3
+  - Level 4
   buttonPrefab: {fileID: 3799949169418537483, guid: 4827fcec1ac5da548bdc4ad0419508c9, type: 3}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightedColor: {r: 0.7056604, g: 0.7056604, b: 0.7056604, a: 1}
